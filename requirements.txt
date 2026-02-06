@@ -1,0 +1,7 @@
+langchain
+langchain-groq
+python-dotenv
+requests
+scikit-learn
+numpy
+rich
