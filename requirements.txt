@@ -1,7 +1,22 @@
-langchain
-langchain-groq
-python-dotenv
-requests
-scikit-learn
-numpy
-rich
+# ── ML / Deep Learning ───────────────────────────
+torch>=2.2.0
+numpy>=1.26.0
+
+# ── Data Pipeline ────────────────────────────────
+datasets>=2.18.0          # HuggingFace dataset loading
+scikit-learn>=1.4.0       # train/test split, classification report
+
+# ── EDA & Visualization ─────────────────────────
+pandas>=2.2.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# ── Database (Online Pipeline) ───────────────────
+psycopg2-binary>=2.9.9    # PostgreSQL driver
+
+# ── Utilities ────────────────────────────────────
+tqdm>=4.66.0
+
+# ── Notebook ─────────────────────────────────────
+jupyter>=1.0.0
+ipykernel>=6.29.0

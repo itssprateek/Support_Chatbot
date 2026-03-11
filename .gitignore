@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environment
+.env
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Artifacts (large model files — regenerate via training)
+# Uncomment below if you don't want to track model weights in git:
+# artifacts/intent_model/model.pt
+# artifacts/intent_model/tokenizer.json
+
+# Evaluation outputs
+artifacts/eval_results/
+
+# PostgreSQL data (Docker volume)
+pgdata/
