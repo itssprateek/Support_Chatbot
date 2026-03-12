@@ -129,7 +129,7 @@ def seed_intent_responses(conn):
                 response_template = EXCLUDED.response_template,
                 updated_at = NOW()
             """,
-            [(intent, response, "NOW()") for intent, response in INTENT_RESPONSES_SEED],
+            INTENT_RESPONSES_SEED,
             template="(%s, %s, NOW())",
         )
     conn.commit()

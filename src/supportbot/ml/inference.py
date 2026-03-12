@@ -2,8 +2,8 @@ import json
 import torch
 import torch.nn.functional as F
 
-from supportbot.ml.model import IntentBiGRU
-from supportbot.ml.tokenizer import WordTokenizer
+from src.supportbot.ml.model import IntentBiGRU
+from src.supportbot.ml.tokenizer import WordTokenizer
 
 class IntentPredictor:
     def __init__(self, artifacts_dir: str):

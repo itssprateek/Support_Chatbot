@@ -20,7 +20,7 @@ CONFIDENCE_LOW   = float(os.getenv("CONFIDENCE_LOW", "0.65"))    # below → ask
 
 # ── PostgreSQL (for online pipeline — not needed for offline) ────
 DB_HOST     = os.getenv("DB_HOST", "localhost")
-DB_PORT     = int(os.getenv("DB_PORT", "5432"))
+DB_PORT     = int(os.getenv("DB_PORT", "5433"))
 DB_NAME     = os.getenv("DB_NAME", "supportbot")
 DB_USER     = os.getenv("DB_USER", "postgres")
 DB_PASSWORD = os.getenv("DB_PASSWORD", "postgres")
